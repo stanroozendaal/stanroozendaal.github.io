@@ -27,60 +27,43 @@
 			</header>
 
 			<!-- This is the navbar -->
-			<nav id="nav"> 
+			<nav id="navbar"> 
 				<ul>
-					<li><a id="navbar" href="product.html"> PRODUCTS</a></li>
-					<li><a id="navbar" href="http://www.blogger.com"> BLOG</a></li>
-					<li><a id="navbar" href="contact.html"> CONTACT</a></li>
+					<li><a class="hidemobile" href="product.html"> PRODUCTS</a></li>
+					<li><a class="hidemobile" href="http://www.blogger.com"> BLOG</a></li>
+					<li><a class="hidemobile" href="contact.html"> CONTACT</a></li>
 				</ul>
+
+				<article class="hidetablet hidePC">
+					<button class="dropdownmobile">
+						<img id="navbardropdown" src="img/navbardropdown.png">
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<section id="navbarmobilemenu">
+						<a href="product.html"> PRODUCTS </a>
+						<a href="http://www.blogger.com"> BLOG </a>
+						<a href="contact.html"> CONTACT </a>
+					</section>
+				</article>
 			</nav>
 
-			<!-- This is the first text article -->
-			<article class="text"> 
-				<h2> WE ARE ENTERTAINMENT </h2> 
-			</article>
+			<!-- this is the inhoud -->
+			<h2> WE ARE ENTERTAINMENT </h2> 
+			<img class="img" id="img1index" src="img/product3.jpg" title="product3" alt="Yoshi"/>
 
-			<!-- This is the first image -->
-			<article class="img">
-				<img id="img1index" src="img/product3.jpg" title="product3" alt="Yoshi"/>
-			</article>
+			<h2 class="hidetablet hidemobile"> MOBILE GAMES</h2> 
+			<img class="img" id="img2index" src="img/product8.jpg" title="product8" alt="Mobile"/>
 
-			<!-- This is the second text article -->
-			<article class="text"> 
-				<h2> MOBILE</h2> 
-				<h2> GAMES</h2>
-			</article>
+			<h2 class="hidetablet hidemobile" id="boardgames"> BOARD GAMES</h2> 
+			<img class="img" id="img3index" src="img/product6.jpg" title="product6" alt="Board"/>
 
-			<!-- This is the second image -->
-			<article class="img">
-				<img id="img2index" src="img/product8.jpg" title="product8" alt="Mobile"/>
-			</article>
-
-			<!-- This is the third text article -->
-			<article class="text"> 
-				<h2> BOARD</h2> 
-				<h2> GAMES</h2>
-			</article>
-
-			<!-- This is the third image -->
-			<article class="img">
-				<img id="img3index" src="img/product6.jpg" title="product6" alt=""/>
-			</article>
-
-			<!-- This is the fourth text article -->
-			<article class="text"> 
-				<h2> CONSOLE</h2> 
-				<h2> GAMES</h2>
-			</article>
-
-			<!-- This is the fourth image -->
-			<article class="img">
-				<img id="img4index" src="img/product9.jpg" title="product9" alt=""/>
-			</article>
+			<h2 class="hidemobile"> CONSOLE GAMES</h2> 
+			<img class="img" id="img4index" src="img/product9.jpg" title="product9" alt="Controller"/>
+			
 
 			<!-- This is the footer -->
 			<footer class="footer">
-				&copy 2018 - Stan Roozendaal - Inholland
+				<strong>&copy 2018 - Stan Roozendaal - Inholland</strong>
 			</footer>
 
 		</main>
