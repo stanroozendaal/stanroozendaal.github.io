@@ -5,6 +5,7 @@ body{
 	font-family: "Arial",serif;
 	background-image: url("../img/background.jpeg");
 	margin: 0;
+	position: relative;
 }
 
 /* this is the middle */
@@ -33,7 +34,13 @@ body{
     font-family: "berlinsans",sans-serif;
     font-size: 5.5em;
     padding-top: 60px;
-    text-shadow: -4px 0px black, 0px 4px black, 4px 0px black, 0px -4px black;
+    text-shadow: -4px 0px #000000, 0px 4px #000000, 4px 0px #000000, 0px -4px #000000;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
 }
 
 /* these are the navbar */
@@ -67,17 +74,26 @@ li a {
 	color: #FFFFFF;
 }
 
+.hidePC{
+	display: none;
+}
+
 /* these are the text articles */
-.text{
+h2{
 	color: #FFFFFF;
 	background-color: #2699FB;
-	height: 250px;
+	height: 230px;
 	float: left;
 	width: 100%;
-	font-size: 4.0em;
+	font-size: 5.5em;
 	text-align: center;
 	vertical-align: center;
-	padding-top: 10px;
+	padding-top: 30px;
+	margin: 0;
+}
+
+#boardgames{
+	height: 250px;
 }
 
 .info{
@@ -86,21 +102,12 @@ li a {
 	height: 100px;
 	float: left;
 	width: 100%;
-	font-size: 3.0em;
+	font-size: 5.5em;
 	text-align: center;
 	vertical-align: center;
-	padding-top: 10px;
-}
-
-h1{
 	margin: 0;
-	padding: 0;
-	font-size: 1em;
-}
+	padding-bottom: 30px;
 
-h2{
-	margin: 0;
-	padding: 0;
 }
 
 /* these are the images */
@@ -137,7 +144,7 @@ h2{
 
 #images{
 	width: 99.5%;
-	height: 850px;
+	height: 880px;
 	float: left;
 	padding-top: 10px;
 	background-color: #FFFFFF;
@@ -267,18 +274,6 @@ select{
 	color: #707070;
 }
 
-#topic{
-	width: 85%;
-	position: center;
-	margin-left: 65px;
-	height: 50px;
-	border-style: solid;
-	border-color: #AAAAAA;
-	font-family: "Arial", serif;
-	font-size: 0.7em;
-	color: #707070;
-}
-
 #name{
 	width: 85%;
 	position: center;
@@ -345,15 +340,9 @@ p{
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 2.0em;
-	border-style: double;
-	border-color: #FFFFFF;
 	overflow: hidden;
 	display: inline-block;
 	margin: 0;
 }
 
 }
-
-
-
-
