@@ -1,0 +1,3 @@
+student name : Stan Roozendaal
+student number : 614950
+student class : inf1sa
