@@ -3,15 +3,23 @@
 
 	<!-- This is the head -->
 	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Webmarkup assesment Entertainment Website">
+		<meta name="keywords" content="Entertainment, Mobile Games, Board Games, Console Games, Games, Mario, Contact, Website, HTML, CSS">
+		<meta name="author" content="Stan Roozendaal">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/gif" href="img/inholland-logo.jpg">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetPC.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetTablet.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetMobile.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" >
-		<title> Stan Roozendaal Inf1Sa </title>
+		<title> Stan Roozendaal Inf1Sa 614950</title>
 	</head>
 
 	<!-- This is the body -->
 	<body>
+		<video autoplay muted loop class="hidetablet hidemobile" id="background">
+			<source src="img/background.mp4" type="video/mp4">
+		</video>
 
 		<!-- This is the leftside -->
 		<aside class="sides"></aside>
@@ -22,28 +30,34 @@
 			<!-- This is the header -->
 			<header class="header">
 				<section>
-					<h1> COMPANY NAME</h1> 
+					<h1><a class="headerlink" href="index.html">COMPANY NAME</a></h1> 
 				</section>
 			</header>
 
 			<!-- This is the navbar -->
-			<nav id="nav"> 
-				<ul>
-					<li><a id="navbar" href="index.html"> HOME</a></li>
-					<li><a id="navbar" href="http://www.blogger.com"> BLOG</a></li>
-					<li><a id="navbar" href="contact.html"> CONTACT</a></li>
-				</ul>
+			<nav class="navbar"> 
+				<article class="mobilemenu">
+					<button class="dropdownmobile hidePC hidetablet">
+						&#9776;
+					</button>
+				</article>
+            	<article class="menuoptions">
+                	<ul>
+                        <li><a href="product.html">PRODUCTS</a></li>                  	
+                       	<li><a href="http://www.blogger.com">BLOG</a></li>                    	
+                       	<li><a href="contact.html">CONTACT</a></li>
+                	</ul>
+            	</article>
 			</nav>
 
-			<h2 class="info"> CONTACT </h2>
+			<h2 class="info hidetablet"> CONTACT </h2>
 			
 			<!-- This is the form -->
 			<article id="contact">
 				<article id="contacttext">
 					<p> More Information </p>
 				</article>
-
-				<!-- This is the field section -->
+				
 				<form class="form">
 					<fieldset>
 						<label id="texttopic">Select topic..</label>
@@ -55,15 +69,15 @@
 						</select>
 					</fieldset>
   					<input id="name" type="text" name="name" placeholder="  Your name.."/>
-  					<input id="email" type="text" name="email" placeholder="  Your email.."/>
-  					<textarea id="message" type="text" name="message" placeholder="  Write something.."></textarea>
+  					<input id="email" type="text" name="email" placeholder="  Your email.."/> 					
+  					<textarea id="message" name="message" placeholder="  Write something.."></textarea>
   					<input id="button" type="submit" value="Submit"/>
 				</form> 
 			</article>
 
 			<!-- This is the footer -->
 			<footer class="footer">
-				<strong>&copy 2018 - Stan Roozendaal - Inholland</strong>
+				<strong>&copy; 2018 - Stan Roozendaal - Inholland</strong>
 			</footer>
 		
 		</main>
@@ -73,4 +87,3 @@
 
 	</body>
 </html>
-
