@@ -1,336 +1,364 @@
-@media only screen and (max-width: 360px) {
+@media screen and (max-width: 360px){
 	
-body{	
-	font-family: "Arial",serif;
-	background-image: url("../img/background.jpeg");
-	margin: 0;
-	width: 100%;
-}
+	/*This is the body*/
+	body{	
+		font-family: Arial, Helvetica, serif;
+		background-image: url("../img/background.jpeg");
+		margin: 0;
+		width: 100%;
+	}
 
-.header{
-	background-image: url("../img/companylogoBG.jpg");
-	background-position: center;
-	background-size: 100%;
-	height: 50px;
-	width: 100%;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: "berlinsans",sans-serif;
-    font-size: 2em;
-    margin-top: 0px;
-    padding-top: 20px;
-}
+	/*These are for the header*/
+	.header{
+		background-image: url("../img/companylogoBG.jpg");
+		background-position: center;
+		background-size: 100%;
+		height: 20vw;
+		width: 100%;
+    	text-align: center;
+    	color: #FFFFFF;
+    	font-family: Arial, Helvetica, serif;
+   		font-size: 7vw;
+    	margin-top: 0px;
+    	padding-top: 9vw;
+	}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    background-color: #707070;
-	margin-top: 0px;
-	font-size: 2.0em;
-	border-style: double;
-	border-color: #FFFFFF
-}
+	h1{
+		margin: 0;
+		padding: -4vw;
+	}
 
-li {
-    display: inline-block;
-    vertical-align: center;
-}
+	.headerlink{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
 
-li a {
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-}
+	/*These are for the dropdown menu*/
+	.dropdownmobile{
+    	background-color: #707070;
+    	color: white;
+    	margin-left: 2vw;
+    	font-size: 8vw;
+    	border: none;
+    	cursor: pointer;
+    	float: left;
+    	text-decoration: none;
+	}
 
-#navbar{
-	color: #FFFFFF;
-}
+	.navbar {
+    	position: relative;
+    	text-align: center;
+    	margin-top: 0vw;
+    	height: 11vw;
+    	background-color: #707070;
+    	outline: 1vw solid #FFFFFF;
+    	align-items: center;
+    	width: 100%;
+	}
 
-.dropdownmobile{
-	height: 25px;
-	width: 25px;
-	z-index: 1;
-}
+	.menuoptions {
+    	margin-top: 12.2vw;
+    	display: none;
+    	position: absolute;
+    	background-color: #FFFFFF;
+    	width: 100%;
+    	z-index: 1;
+    	font-family: Arial, Helvetica, serif;
+    	text-align: left;
+	}
 
-#navbardropdown{
-	height: 25px;
-	width: 25px;
-	float: left;
-	overflow: hidden;
-}
+	.menuoptions a {
+    	padding-top: 1vw;
+    	color: #000000;
+    	text-decoration: none;
+    	font-family: Arial, Helvetica, serif;
+    	display: block;
+    	margin-left: -7vw;
+    	margin-right: 7vw;
+    	width: 100%;
+	}
 
-.hidemobile{
-	display: none;
-}
+	.menuoptions a :hover {
+    	background-color: #FFFFFF;
+	}
 
-.info{
-	color: #FFFFFF;
-	background-color: #2699FB;
-	height: 100px;
-	float: left;
-	width: 100%;
-	font-size: 3.0em;
-	text-align: center;
-	vertical-align: center;
-	padding-top: 10px;
-}
+	.mobilemenu:hover .menuoptions {
+    	display: block;
+	}
 
-h1{
-	margin: 0;
-	padding: -40px;
-	font-size: 1em;
-}
+	.mobilemenu:hover .menuoptions {
+    	background-color: #FFFFFF;
+	}
 
-h2{
-	color: #FFFFFF;
-	background-color: #2699FB;
-	height: 100px;
-	float: left;
-	width: 100%;
-	font-size: 2em;
-	text-align: center;
-	vertical-align: center;
-	padding-top: 20px;
-	margin: 0px;
-}
+	ul{
+    	list-style-type: none;    
+	}
 
-.img{
-	height: 200px;
-	width: 100%;
-	margin: auto;
-	text-align: center;
-	overflow: hidden;
-	float: left;
-	border-style: solid;
-	border-color: #FFFFFF;	
-}
+	/*This is for the things u dont need for the mobile version*/
+	.hidemobile{
+		display: none;
+	}
 
-#img1index{
-	object-fit: cover;
-	width: 100%;
-}
+	/*These are for the text*/
+	.info{
+		color: #FFFFFF;
+		background-color: #2699FB;
+		height: 10vw;
+		float: left;
+		width: 100%;
+		font-size: 7vw;
+		text-align: center;
+		vertical-align: center;
+		padding-top: 2vw;
+	}
 
-#img2index{
-	object-fit: cover;
-	width: 100%;
-}
+	h2{
+		color: #FFFFFF;
+		background-color: #2699FB;
+		height: 30vw;
+		float: left;
+		width: 100%;
+		font-size: 10vw;
+		text-align: center;
+		vertical-align: center;
+		padding-top: 2vw;
+		margin: 0px;
+		font-weight: normal;
+	}
 
-#img3index{
-	object-fit: cover;
-	width: 100%;
-}
+	/*These are for the images*/
+	.img{
+		height: 40vw;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		overflow: hidden;
+		float: left;
+		border-style: solid;
+		border-color: #FFFFFF;	
+	}
 
-#img4index{
-	object-fit: cover;
-	width: 100%;
-}
+	#img1index{
+		object-fit: cover;
+		width: 100%;
+	}
 
-#images{
-	width: 99.5%;
-	height: 2600px;
-	float: left;
-	padding-top: 10px;
-	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #AAAAAA;
-}
+	#img2index{
+		object-fit: cover;
+		width: 100%;
+	}
 
-#imagerow{
-	display: inline-block;
-	width: 100%;
-	margin-left: 10px;
+	#img3index{
+		object-fit: cover;
+		width: 100%;
+	}
 
-}
+	#img4index{
+		object-fit: cover;
+		width: 100%;
+	}
 
-.imgProduct{
-	width: 92%;
-	height: 200px;
-	overflow: hidden;
-	border-style: solid;
-	border-color: #AAAAAA;
-	float: left;
-	margin-left: 10px;
-	margin-top: 10px;
-}
+	#images{
+		width: 99.5%;
+		height: 575vw;
+		float: left;
+		padding-top: 1vw;
+		background-color: #FFFFFF;
+		border-style: solid;
+		border-color: #AAAAAA;
+	}
 
-#img1{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#imagerow{
+		display: inline-block;
+		width: 100%;
+		margin-left: 1vw;
 
-#img2{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	}
 
-#img3{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	.imgProduct{
+		width: 92%;
+		height: 45vw;
+		overflow: hidden;
+		border-style: solid;
+		border-color: #AAAAAA;
+		float: left;
+		margin-left: 2.5vw;
+		margin-top: 1vw;
+	}
 
-#img4{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img1{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img5{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img2{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img6{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img3{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img7{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img4{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img8{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img5{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img9{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img6{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img10{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img7{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img11{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img8{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#img12{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
+	#img9{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#contact{
-	height: 375px;
-	background-color: #FFFFFF;
-	font-size: 1em;
-	color: #707070;
-	margin: 0;
-	padding: 0;
-	float: left;
-}
+	#img10{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-fieldset{
-	width: 70%;
-	position: center;
-	margin-left: 35px;
-	height: 50px;
-	border-style: solid;
-	border-color: #AAAAAA;
-	font-family: "Arial", serif;
-	font-size: 1em;
-	margin-top: 20px;
-}
+	#img11{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-select{
-	width: 80%;
-	border-style: solid;
-	border-color: #AAAAAA;
-	height: 30px;
-	float: left;
-	font-size: 1em;
-	color: #707070;
-}
+	#img12{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 
-#name{
-	width: 77%;
-	position: center;
-	margin-left: 35px;
-	height: 30px;
-	border-style: solid;
-	border-color: #AAAAAA;
-	font-family: "Arial", serif;
-	font-size: 1em;
-	margin-top: 20px;
-	color: #707070;
-}
+	/*These are for the form*/
+	#contact{
+		height: 100vw;
+		background-color: #FFFFFF;
+		font-size: 3vw;
+		color: #707070;
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
 
-#email{
-	width: 77%;
-	position: center;
-	margin-left: 35px;
-	height: 30px;
-	border-style: solid;
-	border-color: #AAAAAA;
-	font-family: "Arial", serif;
-	font-size: 1em;
-	margin-top: 20px;
-	color: #707070;
-}
+	fieldset{
+		width: 70vw;
+		position: center;
+		margin-left: 4vw;
+		height: 13vw;
+		border-style: solid;
+		border-color: #AAAAAA;
+		font-family: Arial, Helvetica, serif;
+		font-size: 5vw;
+		margin-top: 6vw;
+	}
 
-#message{
-	width: 77%;
-	margin-left: 35px;
-	height: 75px;
-	border-style: solid;
-	border-color: #AAAAAA;
-	font-family: "Arial", serif;
-	font-size: 1em;
-	margin-top: 20px;
-	text-align: left;
-	vertical-align: text-top;
-	color: #707070;
-}
+	select{
+		width: 80vw;
+		border-style: solid;
+		border-color: #AAAAAA;
+		height: 7vw;
+		float: left;
+		font-size: 5vw;
+		color: #707070;
+	}
+
+	#name{
+		width: 88vw;
+		position: center;
+		margin-left: 4vw;
+		height: 10vw;
+		border-style: solid;
+		border-color: #AAAAAA;
+		font-family: Arial, Helvetica, serif;
+		font-size: 5vw;
+		margin-top: 2vw;
+		color: #707070;
+	}
+
+	#email{
+		width: 88vw;
+		position: center;
+		margin-left: 4vw;
+		height: 10vw;
+		border-style: solid;
+		border-color: #AAAAAA;
+		font-family: Arial, Helvetica, serif;
+		font-size: 5vw;
+		margin-top: 2vw;
+		color: #707070;
+	}
+
+	#message{
+		width: 87.5vw;
+		margin-left: 4vw;
+		height: 20vw;
+		border-style: solid;
+		border-color: #AAAAAA;
+		border-width: 2px;
+		font-family: Arial, Helvetica, serif;
+		font-size: 5vw;
+		margin-top: 2vw;
+		text-align: left;
+		vertical-align: text-top;
+		color: #707070;
+	}
 
 
-#button{
-	width: 79.5%;
-	margin-left: 35px;
-	height: 30px;
-	border-style: solid;
-	border-color: #FFFFFF;
-	font-family: "Arial", serif;
-	font-size: 1em;
-	color: #FFFFFF;
-	margin-top: 20px;
-	background-color: #2699FB;
-}
+	#button{
+		width: 90vw;
+		margin-left: 4vw;
+		height: 10vw;
+		border-style: solid;
+		border-color: #FFFFFF;
+		font-family: Arial, Helvetica, serif;
+		font-size: 5vw;
+		color: #FFFFFF;
+		margin-top: 2vw;
+		background-color: #2699FB;
+	}
 
-p{
-	display: none;
-}
+	p{
+		display: none;
+	}
 
-.footer{
-	background-color: #000000;
-	width: 99.5%;
-	color: #FFFFFF;
-	text-align: center;
-	font-size: 1.0em;
-	border-style: double;
-	border-color: #FFFFFF;
-	overflow: hidden;
-	display: inline-block;
-	margin: 0;
-}
-	
+	/*This is the footer*/
+	.footer{
+		background-color: #000000;
+		width: 99.5%;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 5vw;
+		overflow: hidden;
+		display: inline-block;
+		margin: 0;
+	}	
 }
