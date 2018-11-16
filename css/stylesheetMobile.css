@@ -95,7 +95,7 @@
 	}
 	
 	li{
-		display: inline-block;
+		display: block;
 	}
 
 	/*This is for the things u dont need for the mobile version*/
