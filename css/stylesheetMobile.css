@@ -35,63 +35,67 @@
 
 	/*These are for the dropdown menu*/
 	.dropdownmobile{
-    	background-color: #707070;
-    	color: white;
-    	margin-left: 2vw;
-    	font-size: 8vw;
-    	border: none;
-    	cursor: pointer;
-    	float: left;
-    	text-decoration: none;
+    		background-color: #707070;
+    		color: #FFFFFF;
+    		margin-left: 2vw;
+    		font-size: 8vw;
+    		border: none;
+    		cursor: pointer;
+    		float: left;
+    		text-decoration: none;
 	}
 
 	.navbar {
-    	position: relative;
-    	text-align: center;
-    	margin-top: 0vw;
-    	height: 11vw;
-    	background-color: #707070;
-    	outline: 1vw solid #FFFFFF;
-    	align-items: center;
-    	width: 100%;
+    		position: relative;
+    		text-align: center;
+    		margin-top: 0vw;
+    		height: 11vw;
+    		background-color: #707070;
+    		outline: 1vw solid #FFFFFF;
+    		align-items: center;
+    		width: 100%;
 	}
 
 	.menuoptions {
-    	margin-top: 12.2vw;
-    	display: none;
-    	position: absolute;
-    	background-color: #FFFFFF;
-    	width: 100%;
-    	z-index: 1;
-    	font-family: Arial, Helvetica, serif;
-    	text-align: left;
+    		margin-top: 12.2vw;
+    		display: none;
+    		position: absolute;
+    		background-color: #FFFFFF;
+    		width: 100%;
+    		z-index: 1;
+    		font-family: Arial, Helvetica, serif;
+    		text-align: left;
 	}
 
-	.menuoptions li {
-    	padding-top: 1vw;
-    	color: #000000;
-    	text-decoration: none;
-    	font-family: Arial, Helvetica, serif;
-    	display: block;
-    	margin-left: -7vw;
-    	margin-right: 7vw;
-    	width: 100%;
+	.menuoptions a {
+    		padding-top: 1vw;
+    		color: #000000;
+    		text-decoration: none;
+    		font-family: Arial, Helvetica, serif;
+    		display: block;
+    		margin-left: -7vw;
+    		margin-right: 7vw;
+    		width: 100%;
 	}
 
-	.menuoptions li :hover {
-    	background-color: #FFFFFF;
-	}
-
-	.mobilemenu:hover .menuoptions {
-    	display: block;
+	.menuoptions a :hover {
+    		background-color: #FFFFFF;
 	}
 
 	.mobilemenu:hover .menuoptions {
-    	background-color: #FFFFFF;
+    		display: block;
+	}
+
+	.mobilemenu:hover .menuoptions {
+    		background-color: #FFFFFF;
 	}
 
 	ul{
-    	list-style-type: none;    
+    		list-style-type: none;    
+	}
+	
+	li{
+		display: inline-block;
 	}
 
 	/*This is for the things u dont need for the mobile version*/
