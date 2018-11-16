@@ -3,15 +3,23 @@
 
 	<!-- This is the head -->
 	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Webmarkup assesment Entertainment Website">
+		<meta name="keywords" content="Entertainment, Mobile Games, Board Games, Console Games, Games, Mario, Images, Website, HTML, CSS">
+		<meta name="author" content="Stan Roozendaal">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/gif" href="img/inholland-logo.jpg">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetPC.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetTablet.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetMobile.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" >
-		<title> Stan Roozendaal Inf1Sa </title>
+		<title> Stan Roozendaal Inf1Sa 614950</title>
 	</head>
 
 	<!-- This is the body -->
 	<body>
+		<video autoplay muted loop class="hidetablet hidemobile" id="background">
+			<source src="img/background.mp4" type="video/mp4">
+		</video>
 
 		<!-- This is the leftside -->
 		<aside class="sides"></aside>
@@ -22,27 +30,33 @@
 			<!-- This is the header -->
 			<header class="header">
 				<section>
-					<h1> COMPANY NAME</h1> 
+					<h1><a class="headerlink" href="index.html">COMPANY NAME</a></h1> 
 				</section>
 			</header>
 
 			<!-- This is the navbar -->
-			<nav id="nav"> 
-				<ul>
-					<li><a id="navbar" href="index.html"> HOME</a></li>
-					<li><a id="navbar" href="http://www.blogger.com"> BLOG</a></li>
-					<li><a id="navbar" href="contact.html"> CONTACT</a></li>
-				</ul>
+			<nav class="navbar"> 
+				<article class="mobilemenu">
+					<button class="dropdownmobile hidePC hidetablet">
+						&#9776;
+					</button>
+				</article>
+            	<article class="menuoptions">
+                	<ul>
+                        <li><a href="product.html">PRODUCTS</a></li>                  	
+                       	<li><a href="http://www.blogger.com">BLOG</a></li>                    	
+                       	<li><a href="contact.html">CONTACT</a></li>
+                	</ul>
+            	</article>
 			</nav>
 
-			<!-- This is the first text article -->
-				<h2 class="info"> PRODUCT CATALOG </h2>
+			<!-- This is the text -->
+				<h2 class="info hidetablet hidemobile"> PRODUCT CATALOG </h2>
+				<h2 class="info hidePC hidetablet"> PRODUCTS</h2>
 			
 
 			<!-- This is the image grid -->
-			<article id="images">
-
-				<!-- This is the first image row -->
+			<section id="images">
 				<article class="imagerow">
 					<article class="imgProduct">
 						<img id="img1" src="img/product1.jpg" title="product1" alt="Rubicscube">
@@ -55,7 +69,6 @@
 					</article>
 				</article>
 
-				<!-- This is the second image row -->
 				<article class="imagerow">
 					<article class="imgProduct">
 						<img id="img4" src="img/product4.jpg" title="product4" alt="Poker">
@@ -68,7 +81,6 @@
 					</article>
 				</article>
 
-				<!-- This is the third image row -->
 				<article class="imagerow">
 					<article class="imgProduct">
 						<img id="img7" src="img/product7.jpg" title="product7" alt="Darts">
@@ -81,7 +93,6 @@
 					</article>
 				</article>
 
-				<!-- This is the fourth image row -->
 				<article class="imagerow">
 					<article class="imgProduct">
 						<img id="img10" src="img/product10.jpg" title="product10" alt="OldController">
@@ -93,11 +104,11 @@
 						<img id="img12" src="img/product12.jpg" title="product12" alt="Beerpong">
 					</article>
 				</article>
-			</article>
+			</section>
 
 			<!-- This is the footer -->
 			<footer class="footer">
-				<strong>&copy 2018 - Stan Roozendaal - Inholland</strong>
+				<strong>&copy; 2018 - Stan Roozendaal - Inholland</strong>
 			</footer>
 
 		</main>
