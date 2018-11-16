@@ -14,13 +14,13 @@
 		background-size: 100%;
 		height: 15vw;
 		width: 100%;
-    	text-align: center;
-    	color: #FFFFFF;
-    	font-family: Arial, Helvetica, serif;
-    	font-size: 5.5em;
-    	margin-top: 0px;
-    	padding-top: 7vw;
-    	text-shadow: -4px 0px #000000, 0px 4px #000000, 4px 0px #000000, 0px -4px #000000;
+    		text-align: center;
+    		color: #FFFFFF;
+    		font-family: Arial, Helvetica, serif;
+    		font-size: 5.5em;
+    		margin-top: 0px;
+    		padding-top: 7vw;
+    		text-shadow: -4px 0px #000000, 0px 4px #000000, 4px 0px #000000, 0px -4px #000000;
 	}
 
 	.headerlink{
@@ -41,13 +41,13 @@
 	}
 
 	ul {
-    	text-decoration: none;
-    	color: #FFFFFF;
-    	padding: 0.4vw;
-    	margin: 0;
-    	overflow: hidden;
-    	text-align: center;
-    	background-color: #707070;
+    		text-decoration: none;
+    		color: #FFFFFF;
+    		padding: 0.4vw;
+    		margin: 0;
+    		overflow: hidden;
+    		text-align: center;
+    		background-color: #707070;
 		font-size: 3vw;
 		border-style: solid;
 		border-color: #FFFFFF;
