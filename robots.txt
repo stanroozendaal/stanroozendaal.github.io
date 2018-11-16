@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /inholland
+sitemap: sitemap.xml
