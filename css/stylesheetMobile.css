@@ -67,7 +67,7 @@
     	text-align: left;
 	}
 
-	.menuoptions a {
+	.menuoptions li {
     	padding-top: 1vw;
     	color: #000000;
     	text-decoration: none;
@@ -78,7 +78,7 @@
     	width: 100%;
 	}
 
-	.menuoptions a :hover {
+	.menuoptions li :hover {
     	background-color: #FFFFFF;
 	}
 
