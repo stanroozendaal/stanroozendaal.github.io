@@ -3,15 +3,23 @@
 
 	<!-- This is the head -->
 	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Webmarkup assesment Entertainment Website">
+		<meta name="keywords" content="Entertainment, Mobile Games, Board Games, Console Games, Games, Mario, Website, HTML, CSS">
+		<meta name="author" content="Stan Roozendaal">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/gif" href="img/inholland-logo.jpg">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetPC.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetTablet.css">
 		<link rel="stylesheet" type="text/css" href="css/stylesheetMobile.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
-		<title> Stan Roozendaal Inf1Sa </title>
+		<title> Stan Roozendaal Inf1Sa 614950</title>
 	</head>
 
 	<!-- This is the body -->
 	<body>
+		<video autoplay muted loop class="hidetablet hidemobile" id="background">
+			<source src="img/background.mp4" type="video/mp4">
+		</video>
 
 		<!-- this is the leftside -->
 		<aside class="sides"></aside>
@@ -22,53 +30,51 @@
 			<!-- This is the header-->
 			<header class="header">
 				<section>
-					<h1>COMPANY NAME</h1> 
+					<h1><a class="headerlink" href="index.html">COMPANY NAME</a></h1> 
 				</section>
 			</header>
 
 			<!-- This is the navbar -->
-			<nav id="navbar"> 
-				<ul>
-					<li><a class="hidemobile" href="product.html"> PRODUCTS</a></li>
-					<li><a class="hidemobile" href="http://www.blogger.com"> BLOG</a></li>
-					<li><a class="hidemobile" href="contact.html"> CONTACT</a></li>
-				</ul>
-
-				<article class="hidetablet hidePC">
-					<button class="dropdownmobile">
-						<img id="navbardropdown" src="img/navbardropdown.png">
-						<i class="fa fa-caret-down"></i>
+			<nav class="navbar"> 
+				<article class="mobilemenu">
+					<button class="dropdownmobile hidePC hidetablet">
+						&#9776;
 					</button>
-					<section id="navbarmobilemenu">
-						<a href="product.html"> PRODUCTS </a>
-						<a href="http://www.blogger.com"> BLOG </a>
-						<a href="contact.html"> CONTACT </a>
-					</section>
 				</article>
+            	<article class="menuoptions">
+                	<ul>
+                        <li><a href="product.html">PRODUCTS</a></li>                  	
+                       	<li><a href="http://www.blogger.com">BLOG</a></li>                    	
+                       	<li><a href="contact.html">CONTACT</a></li>
+                	</ul>
+            	</article>
 			</nav>
 
-			<!-- this is the inhoud -->
+			<!-- This is the content  -->
 			<h2> WE ARE ENTERTAINMENT </h2> 
 			<img class="img" id="img1index" src="img/product3.jpg" title="product3" alt="Yoshi"/>
 
-			<h2 class="hidetablet hidemobile"> MOBILE GAMES</h2> 
+			<h2 class="hidetablet hidemobile"> MOBILE</h2>
+			<h2 class="hidetablet hidemobile games"> GAMES</h2>			
 			<img class="img" id="img2index" src="img/product8.jpg" title="product8" alt="Mobile"/>
 
-			<h2 class="hidetablet hidemobile" id="boardgames"> BOARD GAMES</h2> 
+			<h2 class="hidetablet hidemobile"> BOARD</h2>
+			<h2 class="hidetablet hidemobile games"> GAMES</h2>
 			<img class="img" id="img3index" src="img/product6.jpg" title="product6" alt="Board"/>
 
-			<h2 class="hidemobile"> CONSOLE GAMES</h2> 
+			<h2 class="hidemobile"> CONSOLE</h2>
+			<h2 class="hidemobile games"> GAMES</h2>
 			<img class="img" id="img4index" src="img/product9.jpg" title="product9" alt="Controller"/>
 			
 
 			<!-- This is the footer -->
 			<footer class="footer">
-				<strong>&copy 2018 - Stan Roozendaal - Inholland</strong>
+				<strong>&copy; 2018 - Stan Roozendaal - Inholland</strong>
 			</footer>
 
 		</main>
 
-		<!-- this is the rightside -->
+		<!-- This is the rightside -->
 		<aside class="sides"></aside>
 
 	</body>
